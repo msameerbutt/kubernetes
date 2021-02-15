@@ -4,7 +4,7 @@ metadata:
   name: mongo-ingress
   namespace: demo-namespace
 spec:
-  tsl:
+  tls:
     - hosts:
       - mongo-express.com
       secretName: mongodb-secret-tls
